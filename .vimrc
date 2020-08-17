@@ -10,6 +10,7 @@ endif
 call plug#begin('~/.vim/plugplugins')
 "---Themes
 Plug 'vim-airline/vim-airline-themes'
+Plug 'dracula/vim',{'as':'dracula'}
 Plug 'bling/vim-airline'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
@@ -34,8 +35,11 @@ Plug 'machakann/vim-highlightedyank'
 Plug 'maxmellon/vim-jsx-pretty'
 call plug#end()
 
-set clipboard=unnamedplus
+"----- Configuration -----
+colorscheme dracula
+map <C-b> :NERDTreeToggle<CR>
 
+set clipboard=unnamedplus
 "-------------Swap-Files------
 "all disabled
 set nobackup
