@@ -1,2 +1,10 @@
 # Config
-Config files
+
+Software used:
+
+Visual Studio
+
+Visual Studio Code
+
+VIM
+
